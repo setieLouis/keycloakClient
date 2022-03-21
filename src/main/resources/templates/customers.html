@@ -15,7 +15,9 @@
         Hello
         <span th:text="${username}">--name--</span>.
     </h1>
-    <table class="table table-striped">
+
+    <div th:text="${token}">Text ...</div>
+    <!--table class="table table-striped">
         <thead>
         <tr>
             <th>ID</th>
@@ -32,7 +34,7 @@
             <td th:text="${customer.serviceRendered}">Text...</td>
         </tr>
         </tbody>
-    </table>
+    </table-->
 
     <a href="/logout">Logout</a>
 </div>
